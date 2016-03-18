@@ -12,6 +12,22 @@
   opacity: 1;
 }
 
+.nav.navbar-nav.navbar-right li a:hover {
+  color: #8c8c8c;
+  opacity: 1;
+}
+
+.nav.navbar-nav.navbar-right li .active {
+  color: #595959;
+  opacity: 1;
+}
+
+ul.nav.navbar-nav.navbar-right li:active {
+  color: #595959;
+  opacity: 1;
+ }
+
+
 .navbar-custom {
   position: absolute;
   top: 0;
@@ -29,6 +45,7 @@
   font-weight: 800;
   letter-spacing: 1px;
 }
+
 
 
 
@@ -269,9 +286,11 @@ video#bgvid {
     color: white;
     height: 45px;
 }
+
 .contact-form textarea{
     resize:none;
     overflow: hidden;
+    height: 8%;
 }
 .contact-form input[type="button"],
 .contact-form input[type="submit"]{
