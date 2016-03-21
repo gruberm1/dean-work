@@ -17,10 +17,6 @@
   opacity: 1;
 }
 
-.nav.navbar-nav.navbar-right li .active {
-  color: #595959;
-  opacity: 1;
-}
 
 ul.nav.navbar-nav.navbar-right li:active {
   color: #595959;
@@ -187,6 +183,10 @@ video#bgvid {
     position: absolute;
     left:0;
     top: 0;
+}
+
+.child-nutrition{
+  padding: 8% 0;
 }
 
 /*CALIBRATION PAGE*/
