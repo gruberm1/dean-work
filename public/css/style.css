@@ -137,7 +137,7 @@ video#bgvid {
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);*/
-    background: url(polina.jpg) no-repeat;
+    background: url('../images/SQUAT.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -331,6 +331,4 @@ and (max-device-width : 1024px)  {
   .child-calibration{
     padding: 5% 0;
   }
-
-
 }
