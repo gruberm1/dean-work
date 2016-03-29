@@ -18,8 +18,8 @@
 }
 
 
-ul.nav.navbar-nav.navbar-right li:active {
-  color: #595959;
+.nav.navbar-nav.navbar-right li a.active {
+  color: #A8A8A8;
   opacity: 1;
  }
 
