@@ -313,3 +313,24 @@ video#bgvid {
     background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
     background-color:#34CACA;
 }
+
+
+/*Ipad*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .main-text{
+      font-size: 20px;
+      padding-right: 20px;
+  }
+
+  .child-nutrition{
+    padding: 5% 0;
+  }
+
+  .child-calibration{
+    padding: 5% 0;
+  }
+
+
+}
