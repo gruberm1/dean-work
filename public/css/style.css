@@ -119,20 +119,25 @@ video#bgvid {
 
 /*TRAINING PAGE*/
 .background-image-training {
-  height:100%;
-  width:100%;
-  text-align:center;
-  background: url('../images/SIDE SQUAT.jpg') no-repeat center;
-  background-size:cover;
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
-    position: absolute;
-    left:0;
-    top: 0;
-}
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url('../images/SIDE SQUAT.jpg') no-repeat center center fixed;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover;
+ }
 
 .child-training{
   padding: 4% 0;
@@ -140,19 +145,24 @@ video#bgvid {
 
 /*NUTRITION PAGE*/
 .background-image-nutrition {
-  height:100%;
-  width:100%;
-  text-align:center;
-  background: url('../images/RUNNING SIDE.jpg') no-repeat center;
-  background-size:cover;
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
-    position: absolute;
-    left:0;
-    top: 0;
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url('../images/RUNNING SIDE.jpg') no-repeat center center fixed;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px)
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+   background-size: cover;
 }
 
 .child-nutrition{
@@ -161,19 +171,24 @@ video#bgvid {
 
 /*CALIBRATION PAGE*/
 .background-image-calibration {
-  height:100%;
-  width:100%;
-  text-align:center;
-  background: url('../images/RUNNING GIRL .jpg') no-repeat center;
-  background-size:cover;
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
-    position: absolute;
-    left:0;
-    top: 0;
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+   top: 0;
+   left: 0;
+   background: url('../images/RUNNING GIRL .jpg') no-repeat center center fixed;
+   -webkit-filter: blur(10px);
+   -moz-filter: blur(10px);
+   -o-filter: blur(10px);
+   -ms-filter: blur(10px)
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+   background-size: cover;
 }
 
 .child-calibration{
@@ -182,19 +197,24 @@ video#bgvid {
 
 /*CONTACT PAGE*/
 .background-image-contact {
-  height:100%;
-  width:100%;
-  text-align:center;
-  background: url('../images/SQUAT GUY.jpg') no-repeat center;
-  background-size:cover;
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
-    position: absolute;
-    left:0;
-    top: 0;
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url('../images/SQUAT GUY.jpg')no-repeat center center fixed;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px)
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .contact-form{
@@ -349,6 +369,7 @@ and (max-device-width : 667px) {
  .child-nutrition{
    display: none;
  }
+
  .child-calibration{
    display: none;
  }
