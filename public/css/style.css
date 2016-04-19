@@ -219,7 +219,7 @@ video#bgvid {
 
 .contact-form{
     font-family: 'Open Sans Condensed', arial, sans;
-    width: 500px;
+    width: 100%;
     padding: 30px;
     background: #797979;
     opacity: 0.8;
@@ -377,5 +377,4 @@ and (max-device-width : 667px) {
  .main-text {
     font-size: 20px;
   }
-
 }
