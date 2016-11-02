@@ -129,106 +129,8 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
 }
 
-/*TRAINING PAGE*/
-.background-image-training {
-  min-height: 100%;
-  min-width: 1024px;
-
-  width: 100%;
-  height: auto;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: url('../images/SLED SIDE.jpg') no-repeat center center fixed;
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-   background-size: cover;
- }
-
-.child-training{
-  padding: 4% 0;
-}
-
-/*NUTRITION PAGE*/
-.background-image-nutrition {
-  min-height: 100%;
-  min-width: 1024px;
-
-  width: 100%;
-  height: auto;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: url('../images/RUNNING SIDE.jpg') no-repeat center center fixed;
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px)
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-   background-size: cover;
-}
-
-.child-nutrition{
-  padding: 8% 0;
-}
-
-/*CALIBRATION PAGE*/
-.background-image-calibration {
-  min-height: 100%;
-  min-width: 1024px;
-
-  width: 100%;
-  height: auto;
-
-  position: fixed;
-   top: 0;
-   left: 0;
-   background: url('../images/RUNNING GIRL .jpg') no-repeat center center fixed;
-   -webkit-filter: blur(10px);
-   -moz-filter: blur(10px);
-   -o-filter: blur(10px);
-   -ms-filter: blur(10px)
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-   background-size: cover;
-}
-
-.child-calibration{
-  padding: 10% 0;
-}
 
 /*CONTACT PAGE*/
-.background-image-contact {
-  min-height: 100%;
-  min-width: 1024px;
-
-  width: 100%;
-  height: auto;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: url('../images/SQUAT GUY.jpg')no-repeat center center fixed;
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px)
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .contact-form{
     width: 100%;
     padding: 30px;
@@ -340,13 +242,27 @@ and (max-device-width : 1024px)  {
       padding-right: 20px;
   }
 
-  .child-nutrition{
-    padding: 5% 0;
+  .image {
+    max-width:100%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    border-radius: 10px;
+      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
   }
 
-  .child-calibration{
-    padding: 5% 0;
+  .image img{
+    max-width:100%;
   }
+
+  .banner {
+    width: 100% !important;
+  }
+
 }
 
 /*iphone*/
@@ -386,18 +302,6 @@ and (max-device-width : 667px) {
    font-size: 50px !important;
    padding-top: 3%;
  }
-
- .child-training{
-   display: none;
- }
- .child-nutrition{
-   display: none;
- }
-
- .child-calibration{
-   display: none;
- }
-
  .main-text {
     font-size: 20px;
   }
